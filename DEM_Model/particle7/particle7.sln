@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "particle7", "particle7.vcxproj", "{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}.Debug|Win32.Build.0 = Debug|Win32
+		{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}.Debug|x64.ActiveCfg = Debug|x64
+		{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}.Debug|x64.Build.0 = Debug|x64
+		{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}.Release|Win32.ActiveCfg = Release|Win32
+		{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}.Release|Win32.Build.0 = Release|Win32
+		{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}.Release|x64.ActiveCfg = Release|x64
+		{8CE64789-F8B4-4ADE-8F6B-A7D5945EC394}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
