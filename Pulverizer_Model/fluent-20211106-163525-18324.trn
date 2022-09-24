@@ -1,0 +1,163 @@
+
+              Welcome to ANSYS Fluent 2020 R2
+
+              Copyright 1987-2020 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: May 29 2020 07:22:43 EDT  Build Id: 10176  
+ 
+Host spawning Node 0 on machine "LAPTOP-O6800VHK" (win64).
+
+-------------------------------------------------------------------------------
+ID    Hostname         Core   O.S.         PID    Vendor      
+-------------------------------------------------------------------------------
+n11   LAPTOP-O6800VHK  12/12  Windows-x64  18012  AMD Ryzen 5 
+n10   LAPTOP-O6800VHK  11/12  Windows-x64  10936  AMD Ryzen 5 
+n9    LAPTOP-O6800VHK  10/12  Windows-x64  11824  AMD Ryzen 5 
+n8    LAPTOP-O6800VHK  9/12   Windows-x64  13540  AMD Ryzen 5 
+n7    LAPTOP-O6800VHK  8/12   Windows-x64  1056   AMD Ryzen 5 
+n6    LAPTOP-O6800VHK  7/12   Windows-x64  16568  AMD Ryzen 5 
+n5    LAPTOP-O6800VHK  6/12   Windows-x64  6928   AMD Ryzen 5 
+n4    LAPTOP-O6800VHK  5/12   Windows-x64  12440  AMD Ryzen 5 
+n3    LAPTOP-O6800VHK  4/12   Windows-x64  3784   AMD Ryzen 5 
+n2    LAPTOP-O6800VHK  3/12   Windows-x64  9272   AMD Ryzen 5 
+n1    LAPTOP-O6800VHK  2/12   Windows-x64  17100  AMD Ryzen 5 
+n0*   LAPTOP-O6800VHK  1/12   Windows-x64  6908   AMD Ryzen 5 
+host  LAPTOP-O6800VHK         Windows-x64  13976  AMD Ryzen 5 
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is E:\\X\\pulverizer_model\\edem\\cleanup-fluent-LAPTOP-O6800VHK-13976.bat
+
+> (cx-gui-do cx-activate-item "MenuBar*ReadSubMenu*Mesh...")
+(cx-gui-do cx-set-file-dialog-entries "Select File" '( "fluid.msh") "Mesh Files (*.msh* *.MSH* )")
+Reading "E:/X/pulverizer_model/edem/fluid.msh"...
+Buffering for file scan...
+
+    9728 nodes, binary.
+    5032 nodes, binary.
+  140400 triangular interior faces, zone  1, binary.
+     454 triangular velocity-inlet faces, zone  5, binary.
+     114 triangular pressure-outlet faces, zone  6, binary.
+    9492 triangular wall faces, zone  7, binary.
+   72715 tetrahedral cells, zone  2, binary.
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts............,
+		faces............,
+		nodes............,
+		cells............,
+        bandwidth reduction using Reverse Cuthill-McKee: 6043/341 = 17.7214
+     materials,
+     interface,
+     domains,
+     zones,
+	wall
+	outlet
+	inlet
+	part_1
+	interior-part_1
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*List_Tree1" (list "Setup|Boundary Conditions|Wall"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*List_Tree1" (list "Setup|Boundary Conditions|Outlet|outlet (pressure-outlet, id=6)"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*List_Tree1" (list "Setup|Boundary Conditions|Outlet|outlet (pressure-outlet, id=6)"))
+(cx-gui-do cx-list-tree-right-click "NavigationPane*List_Tree1" )
+(cx-gui-do cx-activate-item "MenuBar*TypeSubMenu*wall")
+
+ Zone not slit.(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 1)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 2)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 3)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 4)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 5)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 6)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 7)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 8)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 9)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 1)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 2)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 3)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 4)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 5)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-enable-apply-button "Wall")
+(cx-gui-do cx-enable-apply-button "Wall")
+(cx-gui-do cx-activate-item "Wall*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-activate-item "Wall*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*List_Tree1" (list "Setup|Boundary Conditions|Wall|wall (wall, id=7)"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*List_Tree1" (list "Setup|Boundary Conditions|Inlet|inlet (velocity-inlet, id=5)"))
+(cx-gui-do cx-set-list-tree-selections "NavigationPane*List_Tree1" (list "Setup|Boundary Conditions|Inlet|inlet (velocity-inlet, id=5)"))
+(cx-gui-do cx-list-tree-right-click "NavigationPane*List_Tree1" )
+(cx-gui-do cx-activate-item "MenuBar*TypeSubMenu*wall")
+
+ Zone not slit.(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 1)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 2)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 3)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 4)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 5)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 6)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 7)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 8)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 9)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 1)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 2)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 3)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 4)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 5)
+(cx-gui-do cx-activate-tab-index "Wall*Frame4*Frame8(Wall Film)*Frame1*Frame2" 0)
+(cx-gui-do cx-enable-apply-button "Wall")
+(cx-gui-do cx-enable-apply-button "Wall")
+(cx-gui-do cx-activate-item "Wall*PanelButtons*PushButton1(OK)")
+(cx-gui-do cx-activate-item "Wall*PanelButtons*PushButton2(Cancel)")
+(cx-gui-do cx-activate-item "MenuBar*WriteSubMenu*Boundary Mesh...")
+(cx-gui-do cx-set-file-dialog-entries "Select File" '( "fluid.msh") "Boundary Mesh Files (*.msh)")
+(cx-gui-do cx-activate-item "Question*OK")
+Writing "E:/X/pulverizer_model/edem/fluid.msh"...
+     454 triangular wall faces, zone  5.
+     114 triangular wall faces, zone  6.
+    9492 triangular wall faces, zone  7.
+   14760 nodes.
+Done.
+
+/exit y
+(cx-gui-do cx-activate-item "Question*OK")
